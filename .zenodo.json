@@ -1,0 +1,25 @@
+{
+    "title": "Simulation Code: Milstein-type Schemes for Hyperbolic SPDEs",
+    "description": "Simulation code accompanying the paper `Milstein-type Schemes for Hyperbolic SPDEs`.",
+    "license": "MIT",
+    "upload_type": "software",
+    "keywords": [
+        "Milstein Scheme",
+        "Stochastic Schrödinger Equation",
+        "Hyperbolic Equations",
+        "Stochastic Partial Differential Equations",
+        "Julia"
+    ],
+    "creators": [
+        {
+            "affiliation": "University of Hamburg, Hamburg",
+            "name": "Kastner, Felix",
+            "orcid": "0000-0003-0504-6211"
+        },
+        {
+            "affiliation": "Delft University of Technology, Delft",
+            "name": "Klioba, Katharina",
+            "orcid": "0009-0002-7946-917X"
+        }
+    ]
+}
