@@ -1,7 +1,7 @@
 # Milstein-type Schemes for Hyperbolic SPDEs
 *Code to reproduce the figures in the paper*
 
-<!--[![Code DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.-blue.svg)](https://doi.org/10.5281/zenodo.) <!-- Concept DOI -->
+[![Code DOI](https://img.shields.io/badge/Code_DOI-10.5281/zenodo.18229440-blue.svg)](https://doi.org/10.5281/zenodo.18229440)
 [![arXiv](https://img.shields.io/badge/arXiv-2512.19647-blue.svg)](https://arxiv.org/abs/2512.19647)
 
 This is the code repository accompanying the paper "Milstein-type Schemes for Hyperbolic SPDEs".
