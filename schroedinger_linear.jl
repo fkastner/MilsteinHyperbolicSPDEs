@@ -23,7 +23,7 @@ M = 2^10 # number of Fourier modes = frequencies -M/2+1:M/2
 setupFourierTools(M) # 'xx' are space coordinates, 'kk' are frequencies
 
 ## initial value in frequency space
-Fu_0 = Complex.(1 ./ (1 .+ abs.(kk) .^ 6))
+Fu_0 = Complex.(1 ./ (1 .+ abs.(kk) .^ 2.51))
 
 ## eigenvalues for the noise
 β = 5.1
@@ -40,7 +40,7 @@ Fsum_eta_g = 1 / sqrt(2 * pi) * vec([zeros(1, M ÷ 2); Lambda[M÷4+1:M÷2+M÷4]'
 
 ## time discretisation
 t_0, t_end = 0, 0.5
-dt_exact = 2.0^(-14) # time step for reference solution
+dt_exact = 2.0^(-16) # time step for reference solution
 dt_num = 2.0 .^ (-5:-1:-9) # vector of different time steps
 N_dt = length(dt_num)
 Nt_exact = floor(Int, (t_end - t_0) / dt_exact)
